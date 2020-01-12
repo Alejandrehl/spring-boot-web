@@ -6,5 +6,6 @@
 </head>
 <body>
 	<h1 th:text="${titulo}"></h1>
+	<div th:if="${usuarios.size() == 0}">No Hay usuarios en la lista</div>
 </body>
 </html>
